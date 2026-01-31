@@ -1,4 +1,6 @@
-# Programa 1 – Desarrollo y Corrección
+#Semana 1
+
+## Programa 1 – Desarrollo y Corrección
 
 ## Descripción
 Este repositorio contiene el desarrollo del **Programa 1**, el cual incluye el diseño lógico, el procedimiento de solución y la implementación en código Python.  
