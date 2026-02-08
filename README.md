@@ -2,7 +2,7 @@
 
 
 ## Descripción
-Este repositorio contiene el desarrollo del **Programa 1**, el cual incluye el diseño lógico, el procedimiento de solución y la implementación en código Python.  
+La **Semana 1** incluye el diseño lógico, el procedimiento de solución y la implementación en código Python.  
 El proyecto fue realizado como parte de una actividad académica, con el objetivo de aplicar conceptos de programación y estructuración lógica de algoritmos.
 
 ---
@@ -45,10 +45,56 @@ El diseño del programa se basa en:
 
 ---
 
-## Autor
-- Juan Garavito
+# Semana 2
+
+
+## Descripción
+La **Semana 2** incluye el problema de los estudiantes junto con su diseño lógico, el diagrama de flujo y la implementación en código Python, también incluyendo el taller de la semana.  
+El proyecto fue realizado como parte de una actividad académica, con el objetivo de aplicar conceptos de programación y estructuración lógica de algoritmos.
 
 ---
 
-## Colaborador
-- Edward Francia
+## Objetivo del Proyecto
+- Diseñar un algoritmo que determine los estudiantes aprobados con base en el promedio de las notas.
+- Representar la lógica del programa mediante un diagrama de flujo.
+- Implementar la solución en Python.
+- Definir el diseño del programa.
+
+---
+
+## Contenido del Repositorio
+
+- **Diagrama programa 2.drawio.png**  
+  Diagrama de flujo que representa visualmente la lógica y estructura del programa.
+
+- **Diseño programa estudiantes.docx**  
+  Documento donde se determina el diseño del programa.
+
+- **Programa estudiantes.py**  
+  Archivo en Python que contiene la implementación final del programa.
+
+---
+
+## Diseño del Programa
+El diseño del programa se basa en:
+- Descripcion del problema planteado.
+- Historial de usuario.
+- Requerimientos funcionales y no funcionales.
+- Diagrama de flujo.
+- Analisis de complejidad con el costo de tiempo, Big Oh, mejor caso, peor caso con sus graficas y un analisis propio.
+
+---
+
+## Tecnologías Utilizadas
+- Lenguaje de programación: **Python**
+- Herramientas:
+  - GitHub
+  - Draw.io (diagrama)
+  - Editor de código VS Code
+  - Word
+
+---
+
+## Autor
+- Juan Garavito
+
