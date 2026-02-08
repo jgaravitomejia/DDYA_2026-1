@@ -1,6 +1,6 @@
 #Juan Sebsastian Garavito
 def main():
-    sum=0
+    suma=0
     nombres=[]
     notas=[]
     estudiantes=input("Ingresa los nombres y notas de los estudiantes: ")
@@ -11,10 +11,11 @@ def main():
         nombres.append(nom)
         notas.append(round(float(no), 2))
     for i in range(len(notas)):  
-        sum=sum+notas[i]
+        suma=suma+notas[i]
     n=len(notas)
-    prom=sum/n
+    prom=suma/n
     for i in range(len(notas)):
         if notas[i]>=prom:
             print(nombres[i])
+
 main()
