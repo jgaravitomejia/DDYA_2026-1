@@ -49,7 +49,7 @@ El diseño del programa se basa en:
 
 
 ## Descripción
-La **Semana 2** incluye el problema de los estudiantes junto con su diseño lógico, el deiagrama de flujo y la implementación en código Python, también incluyendo el taller de la semana.  
+La **Semana 2** incluye el problema de los estudiantes junto con su diseño lógico, el diagrama de flujo y la implementación en código Python, también incluyendo el taller de la semana.  
 El proyecto fue realizado como parte de una actividad académica, con el objetivo de aplicar conceptos de programación y estructuración lógica de algoritmos.
 
 ---
