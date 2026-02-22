@@ -95,6 +95,60 @@ El diseño del programa se basa en:
 
 ---
 
+
+# Semana 3
+
+
+## Descripción
+La **Semana 3** incluye el problema de los estudiantes junto con su diseño lógico, el diagrama de flujo, el diagrama de casos de uso, el diagrama de secuencia y la implementación en código Python utilizando el paradigma de **Divide y Conquistar** para el cálculo de la suma de las notas.  
+El proyecto fue realizado como parte de una actividad académica, con el objetivo de aplicar conceptos de programación, recursión, estructuración lógica de algoritmos y modelado mediante UML.
+
+---
+
+## Objetivo del Proyecto
+- Diseñar un algoritmo que determine los estudiantes aprobados con base en el promedio de las notas.
+- Implementar el cálculo de la suma mediante el paradigma **Divide y Conquistar**.
+- Representar la lógica del programa mediante un diagrama de flujo.
+- Elaborar el diagrama de casos de uso.
+- Elaborar el diagrama de secuencia.
+- Realizar el análisis de complejidad utilizando el Teorema Maestro.
+- Implementar la solución en Python.
+- Definir el diseño formal del programa.
+
+---
+
+## Contenido del Repositorio
+
+- **Diseño programa estudiantes DyC.pdf**  
+  Documento donde se determina el diseño del programa, incluyendo requerimientos, análisis de complejidad, digramas de flujo, casos de uso y de secuencia, graficas y analisis propio.
+
+- **Programa estudiantes.py**  
+  Archivo en Python que contiene la implementación final del programa utilizando recursión y divide y conquistar.
+
+---
+
+## Diseño del Programa
+El diseño del programa se basa en:
+- Descripción del problema planteado.
+- Historial de usuario.
+- Requerimientos funcionales y no funcionales.
+- Diagrama de flujo.
+- Diagrama del módulo recursivo.
+- Diagrama de casos de uso.
+- Diagrama de secuencia.
+- Análisis de complejidad con el costo de tiempo, recurrencia, Teorema Maestro, Big Oh, mejor caso, peor caso y un análisis propio.
+
+---
+
+## Tecnologías Utilizadas
+- Lenguaje de programación: **Python**
+- Herramientas:
+  - GitHub
+  - Draw.io (diagramas)
+  - Visual Studio Code
+  - Microsoft Word
+
+---
+
 ## Autor
 - Juan Garavito
-
