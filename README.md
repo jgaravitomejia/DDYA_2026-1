@@ -150,6 +150,66 @@ El diseño del programa se basa en:
 
 ---
 
+# Semana 4
+
+
+## Descripción
+La Semana 4 presenta la evolución del proyecto de gestión de estudiantes, integrando el paradigma de Programación Dinámica (PD) mediante el uso de memorización. Esta mejora optimiza el cálculo de la suma de notas en subrangos, evitando cálculos redundantes y mejorando la eficiencia del sistema. El proyecto incluye el diseño lógico actualizado, diagramas UML (flujo, casos de uso y secuencia) y la implementación final en Python.
+
+---
+
+## Objetivo del Proyecto
+- Diseñar un algoritmo que determine los estudiantes aprobados con base en el promedio de las notas de un rango específico.
+- Optimizar el cálculo de la suma mediante Divide y Conquistar junto con Memorización.
+- Representar la lógica del programa mediante un diagrama de flujo detallado para el main y el módulo recursivo.
+- Modelar las interacciones del sistema mediante diagramas de casos de uso y de secuencia.
+- Realizar el análisis de complejidad detallado utilizando el método de recurrencia y el formato de costo-tiempo.
+- Implementar la solución técnica en Python.
+- Definir el diseño formal del programa bajo estándares académicos.
+
+---
+
+## Contenido del Repositorio
+
+- **Diseño programa estudiantes PD.pdf**  
+  Documento que contiene el diseño integral del programa: requerimientos, historias de usuario, diagramas UML, gráficas de rendimiento y el análisis de complejidad técnica.
+- **Programa estudiantes.py**  
+  Script en Python que implementa la lógica de suma por rangos utilizando un diccionario para la gestión de memoria, optimizando la respuesta del algoritmo.
+- 
+
+---
+
+## Diseño del Programa
+El diseño del programa se basa en:
+- Descripción del problema planteado.
+- Historial de usuario.
+- Requerimientos funcionales y no funcionales.
+- Diagrama de flujo.
+- Diagrama del módulo recursivo.
+- Diagrama de casos de uso.
+- Diagrama de secuencia.
+- 10 test del código.
+- Análisis de complejidad con el costo de tiempo, recurrencia, Teorema Maestro, Big Oh, mejor caso, peor caso y un análisis propio.
+
+---
+
+## Tecnologías Utilizadas
+- Lenguaje de programación: **Python**
+- Herramientas:
+  - GitHub
+  - Draw.io (diagramas)
+  - Visual Studio Code
+  - Microsoft Word
+
+---
+
+## Actividades Complementarias
+## Taller - Semana 4
+Además del proyecto principal, se desarrolló un taller práctico enfocado en la implemantacion de Programacion dinamica (memorización) en un problema.
+- **Archivos:**
+  `Semana 4_Analisis_Taller en clase.pdf`
+  `Semana_4_Amigos_PDinamica.py`
+- **Descripción:** Ejercicio prácticos sobre la aplicación de momorización en un problema.
+
 ## Autor
 - Juan Garavito
-
