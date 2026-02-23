@@ -204,7 +204,7 @@ El diseño del programa se basa en:
 ---
 
 ## Actividades Complementarias
-## Taller - Semana 4
+## Carpeta Taller - Semana 4
 Además del proyecto principal, se desarrolló un taller práctico enfocado en la implemantacion de Programacion dinamica (memorización) en un problema.
 - **Archivos:**
   `Semana 4_Analisis_Taller en clase.pdf`
