@@ -211,5 +211,70 @@ Además del proyecto principal, se desarrolló un taller práctico enfocado en l
   `Semana_4_Amigos_PDinamica.py`
 - **Descripción:** Ejercicio prácticos sobre la aplicación de momorización en un problema.
 
+---
+
+# Semana 7
+
+## Descripción
+La Semana 7 presenta el desarrollo de un sistema de gestión de pacientes para la entrega de medicamentos en una farmacia hospitalaria. El sistema administra el flujo de pacientes según su nivel de prioridad utilizando estructuras de datos tipo cola. Se implementa una cola para pacientes normales y otra para pacientes críticos, garantizando que los pacientes críticos sean atendidos primero.
+
+El proyecto incluye el diseño lógico del sistema, diagramas UML (flujo, casos de uso y secuencia), análisis de complejidad del algoritmo y la implementación final en Python dentro de un notebook.
+
+---
+
+## Objetivo del Proyecto
+- Diseñar un sistema que permita registrar pacientes según su nivel de prioridad (normal o crítico).
+- Administrar el orden de atención utilizando estructuras de datos tipo cola.
+- Garantizar que los pacientes críticos tengan prioridad sobre los pacientes normales.
+- Representar la lógica del programa mediante un diagrama de flujo.
+- Modelar la interacción entre el usuario y el sistema mediante diagramas de casos de uso y de secuencia.
+- Analizar la complejidad del algoritmo utilizado.
+- Implementar la solución funcional en Python dentro de un notebook.
+
+---
+
+## Contenido del Repositorio
+
+- **Lab Semana 7.ipynb**  
+  Notebook que contiene el desarrollo completo del laboratorio, incluyendo descripción del problema, requerimientos, historias de usuario, diagramas, análisis de complejidad, implementación del código y test escritos y aplicados.
+
+---
+
+## Diseño del Programa
+El diseño del programa se basa en:
+
+- Descripción del problema planteado.
+- Requerimientos funcionales y no funcionales.
+- Historias de usuario.
+- Diagrama de flujo del algoritmo.
+- Diagrama de secuencia.
+- Diagrama de casos de uso.
+- Implementación del sistema utilizando colas.
+- Test escritos y aplicados.
+- Análisis de complejidad del algoritmo (mejor caso, peor caso y análisis general).
+
+El sistema procesa una serie de comandos que representan acciones dentro de la farmacia hospitalaria:
+
+- **N nombre** → Registrar paciente normal.
+- **C nombre** → Registrar paciente crítico.
+- **A** → Atender al siguiente paciente disponible.
+
+Los pacientes críticos tienen prioridad sobre los pacientes normales.
+
+---
+
+## Tecnologías Utilizadas
+
+- Lenguaje de programación: **Python**
+
+- Herramientas utilizadas:
+  - **Jupyter Notebook**
+  - **GitHub**
+  - **Draw.io** (diagramas)
+  - **Visual Studio Code**
+
+---
+
 ## Autor
+
 - Juan Garavito
