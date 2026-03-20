@@ -275,6 +275,75 @@ Los pacientes críticos tienen prioridad sobre los pacientes normales.
 
 ---
 
+# Semana 8
+
+## Descripción
+La Semana 8 presenta el desarrollo de un sistema de gestión de inventario de computadores utilizando estructuras de datos tipo árbol binario de búsqueda (BST). El sistema permite almacenar, organizar y consultar códigos de computadores de manera eficiente.
+
+El programa implementa operaciones fundamentales sobre el árbol como inserción, búsqueda y recorridos (preorden, inorden y postorden), además de una representación gráfica del árbol. También se incluyen diagramas UML (flujo, casos de uso y secuencia), junto con el análisis lógico del sistema y su implementación en Python dentro de un notebook.
+
+---
+
+## Objetivo del Proyecto
+- Diseñar un sistema que permita registrar códigos de computadores en un inventario.
+- Implementar un árbol binario de búsqueda (BST) para organizar los datos.
+- Permitir la búsqueda de códigos dentro del inventario.
+- Mostrar el inventario mediante diferentes recorridos del árbol.
+- Representar gráficamente la estructura del árbol.
+- Modelar la lógica del sistema mediante diagramas de flujo.
+- Representar la interacción usuario-sistema mediante diagramas de casos de uso y secuencia.
+- Analizar el comportamiento del algoritmo implementado.
+- Desarrollar una solución funcional en Python dentro de un notebook.
+
+---
+
+## Contenido del Repositorio
+
+- **Semana 8 notebook.ipynb**  
+  Notebook que contiene el desarrollo completo del laboratorio, incluyendo la lógica del problema, implementación del árbol binario de búsqueda, menú interactivo, diagramas UML, pruebas y análisis del sistema.
+
+---
+
+## Diseño del Programa
+El diseño del programa se basa en:
+
+- Definición del problema y estructura del inventario.
+- Uso de un árbol binario de búsqueda (BST) para almacenamiento eficiente.
+- Implementación de funciones:
+  - Inserción de datos.
+  - Búsqueda de códigos.
+  - Recorridos del árbol (preorden, inorden y postorden).
+  - Visualización gráfica del árbol.
+- Validación de datos ingresados por el usuario.
+- Interacción mediante un menú principal.
+- Diagramas UML:
+  - Diagrama de flujo.
+  - Diagrama de secuencia.
+  - Diagrama de casos de uso.
+- Pruebas del sistema.
+- Análisis del comportamiento del algoritmo.
+
+El sistema permite ejecutar las siguientes acciones:
+
+- **Agregar código** → Inserta un nuevo código en el árbol.
+- **Visualizar inventario** → Muestra los códigos mediante recorridos y representación gráfica.
+- **Buscar código** → Permite encontrar un código dentro del árbol e indica su nivel.
+- **Salir** → Finaliza el programa.
+
+---
+
+## Tecnologías Utilizadas
+
+- Lenguaje de programación: **Python**
+
+- Herramientas utilizadas:
+  - **Jupyter Notebook**
+  - **GitHub**
+  - **Draw.io** (diagramas)
+  - **Visual Studio Code**
+
+---
+
 ## Autor
 
 - Juan Garavito
