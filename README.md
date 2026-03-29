@@ -344,6 +344,115 @@ El sistema permite ejecutar las siguientes acciones:
 
 ---
 
+# Semana 9
+
+## Descripción
+
+La Semana 9 presenta el desarrollo de un sistema de gestión de una red logística de bodegas utilizando estructuras de datos tipo **grafos**. A diferencia de estructuras jerárquicas como los árboles, este sistema modela conexiones complejas entre sedes mediante una **lista de adyacencia**, permitiendo representar relaciones bidireccionales entre múltiples nodos.
+
+El programa implementa algoritmos fundamentales de grafos como **Búsqueda en Anchura (BFS)** para encontrar rutas más cortas y **Búsqueda en Profundidad (DFS)** para explorar completamente la red. Además, incluye una representación visual en consola del grafo, validación de datos, normalización de entradas y un menú interactivo.
+
+---
+
+## Objetivo del Proyecto
+
+* Modelar una red de bodegas utilizando grafos.
+* Implementar una lista de adyacencia mediante diccionarios.
+* Permitir la inserción dinámica de bodegas (vértices).
+* Establecer conexiones bidireccionales (aristas).
+* Implementar el algoritmo BFS para encontrar rutas más cortas.
+* Implementar el algoritmo DFS para exploración de la red.
+* Visualizar la estructura del grafo en consola.
+* Validar entradas y evitar duplicados.
+* Desarrollar una solución interactiva mediante un menú.
+* Analizar la complejidad del algoritmo.
+
+---
+
+## Contenido del Repositorio
+
+* **Semana 9 notebook.ipynb**
+  Notebook que contiene el desarrollo completo del laboratorio, incluyendo modelamiento del problema, implementación del grafo, algoritmos BFS y DFS, visualización, diagramas UML, pruebas y análisis de complejidad.
+
+---
+
+## Diseño del Programa
+
+El diseño del sistema se basa en:
+
+* Representación del grafo mediante **lista de adyacencia (diccionario)**.
+* Normalización de texto para evitar duplicados.
+* Implementación de funciones:
+
+  * Creación de la red.
+  * Inserción de vértices (bodegas).
+  * Creación de aristas (conexiones bidireccionales).
+  * Visualización de la lista de adyacencia.
+  * Recorrido BFS (rutas más cortas).
+  * Recorrido DFS (exploración profunda).
+  * Representación gráfica en consola.
+* Validación de datos ingresados por el usuario.
+* Interacción mediante un menú principal.
+* Diagramas UML:
+
+  * Diagramas de flujo.
+  * Diagramas de secuencia.
+  * Diagramas de casos de uso.
+* Pruebas del sistema.
+* Análisis de complejidad.
+
+El sistema permite ejecutar las siguientes acciones:
+
+* **Agregar bodega** → Inserta un nuevo nodo en el grafo.
+* **Conectar bodegas** → Crea una conexión bidireccional entre dos nodos.
+* **Ver conexiones** → Muestra la lista de adyacencia.
+* **Ver rutas más cortas (BFS)** → Calcula rutas óptimas desde una bodega.
+* **Ver rutas de exploración (DFS)** → Explora todas las rutas posibles.
+* **Ver gráfico** → Muestra una representación visual del grafo en consola.
+* **Salir** → Finaliza el programa.
+
+---
+
+## Tecnologías Utilizadas
+
+* Lenguaje de programación: **Python**
+
+* Herramientas utilizadas:
+
+  * **Jupyter Notebook**
+  * **GitHub**
+  * **Draw.io** (diagramas UML)
+  * **Visual Studio Code**
+
+---
+
+## Análisis de Complejidad
+
+* **Mejor caso:**
+  O(V + E)
+  Donde V es el número de vértices y E el número de aristas. Los algoritmos BFS y DFS recorren cada nodo y conexión una sola vez.
+
+* **Peor caso:**
+  O(V²)
+  Se presenta en grafos densos donde existen múltiples conexiones entre nodos, aumentando el costo de exploración y validación.
+
+---
+
+## Pruebas del Sistema
+
+Se realizaron pruebas para validar:
+
+* Inserción correcta de bodegas.
+* Conexiones bidireccionales sin duplicados.
+* Funcionamiento del algoritmo BFS (ruta más corta).
+* Funcionamiento del algoritmo DFS (exploración completa).
+* Normalización de entradas (evitar duplicados por formato).
+* Visualización correcta del grafo.
+
+
+---
+
+
 ## Autor
 
 - Juan Garavito
